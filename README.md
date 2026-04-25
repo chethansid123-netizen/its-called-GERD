@@ -8,8 +8,9 @@ The app includes:
 - Local API endpoints for case-study data, dashboard metrics, health checks, and contact submissions.
 - A lightweight PowerShell backend with no Node, Python, package manager, or database setup required.
 - Local JSON persistence for contact and demo symptom submissions.
+- A static data fallback so the front end can also load on GitHub Pages.
 
-## Run
+## Run Locally
 
 From this folder:
 
@@ -38,6 +39,10 @@ START_GERD_WEBSITE.cmd
 ```
 
 Keep the black window open while using the website.
+
+## GitHub Pages
+
+The root `index.html` redirects to `public/index.html`, and the front end can read `data/site.json` without the local backend.
 
 ## API
 
