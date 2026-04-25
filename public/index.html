@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GERD | GastroTrack Case Study</title>
+    <meta name="description" content="GERD case-study website for the GastroTrack digital health platform built for Micro Labs Pharma.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="GERD home">
+        <span class="brand-mark">G</span>
+        <span>GERD</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#problem">Problem</a>
+        <a href="#clinical">Clinical</a>
+        <a href="#architecture">Architecture</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#outcomes">Outcomes</a>
+      </nav>
+      <a class="header-cta" href="#contact">Contact</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section-pad" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow" id="hero-eyebrow">Digital health platform case study</p>
+          <h1 id="hero-title">A three-portal GERD management platform built from clinical discovery to delivery.</h1>
+          <p class="hero-summary" id="hero-summary"></p>
+          <div class="hero-actions">
+            <a class="button primary" href="#summary">Explore the Case Study</a>
+            <a class="button secondary" href="#console">Open Product Console</a>
+          </div>
+          <div class="proof-strip" id="metrics-strip" aria-label="Project metrics"></div>
+        </div>
+
+        <aside class="product-console" id="console" aria-label="GERD product console">
+          <div class="console-topbar">
+            <div>
+              <p class="console-kicker">Live platform surface</p>
+              <h2>GastroTrack Ops Console</h2>
+            </div>
+            <span class="status-pill" id="api-status">Checking API</span>
+          </div>
+          <div class="portal-tabs" role="tablist" aria-label="Portal views">
+            <button class="tab is-active" type="button" data-portal="doctor">Doctor</button>
+            <button class="tab" type="button" data-portal="patient">Patient</button>
+            <button class="tab" type="button" data-portal="admin">Admin</button>
+          </div>
+          <div class="console-grid">
+            <section class="panel patient-board">
+              <div class="panel-heading">
+                <h3>Patient Board</h3>
+                <span id="panel-context">Doctor view</span>
+              </div>
+              <div id="patient-list" class="patient-list"></div>
+            </section>
+            <section class="panel trend-panel">
+              <div class="panel-heading">
+                <h3>Symptom Trend</h3>
+                <span>7 days</span>
+              </div>
+              <div class="line-chart" id="line-chart" aria-label="Symptom trend chart"></div>
+            </section>
+            <section class="panel response-panel">
+              <div class="panel-heading">
+                <h3>PPI Response</h3>
+                <span>8-week improvement</span>
+              </div>
+              <div id="response-bars" class="response-bars"></div>
+            </section>
+            <section class="panel alert-panel">
+              <div class="panel-heading">
+                <h3>Clinical Alerts</h3>
+                <span>Rule-based</span>
+              </div>
+              <ul id="alert-list" class="alert-list"></ul>
+            </section>
+          </div>
+        </aside>
+      </section>
+
+      <section class="summary-band" id="summary">
+        <div class="section-intro">
+          <p class="eyebrow">Executive Summary</p>
+          <h2>Built for patients, gastroenterologists, and Micro Labs clinical operations.</h2>
+        </div>
+        <div class="summary-copy">
+          <p>Between November 2024 and May 2025, Chethan N led GastroTrack from zero to delivery at Techvaraha Solutions. The platform covered patient symptom tracking, doctor dashboards, admin reporting, and real-world evidence generation for Micro Labs Pharma's GERD therapy portfolio.</p>
+          <p>He owned clinical discovery, PRD creation, sprint execution, stakeholder management, QA readiness, client presentations, and go-live preparation while reporting directly to Techvaraha's CEO.</p>
+        </div>
+      </section>
+
+      <section class="section-pad two-column" id="problem">
+        <div class="section-intro sticky-intro">
+          <p class="eyebrow">The Problem</p>
+          <h2>GERD care in India had high prevalence and low structure.</h2>
+          <p>Micro Labs wanted a platform that could connect patients, doctors, and clinical ops into one coordinated ecosystem.</p>
+        </div>
+        <div class="stack-list" id="problem-list"></div>
+      </section>
+
+      <section class="section-pad clinical-section" id="clinical">
+        <div class="section-intro">
+          <p class="eyebrow">Clinical Foundation</p>
+          <h2>GERD was translated into product rules, data fields, and workflows.</h2>
+        </div>
+        <div class="clinical-grid">
+          <article class="clinical-card wide">
+            <h3>What GERD Is</h3>
+            <p id="gerd-definition"></p>
+          </article>
+          <article class="clinical-card">
+            <h3>Symptoms Tracked</h3>
+            <ul id="symptom-list"></ul>
+          </article>
+          <article class="clinical-card">
+            <h3>Diagnostic Inputs</h3>
+            <ul id="diagnostic-list"></ul>
+          </article>
+          <article class="clinical-card">
+            <h3>LA Classification</h3>
+            <div id="classification-table" class="classification-table"></div>
+          </article>
+          <article class="clinical-card">
+            <h3>Treatment Pathways</h3>
+            <ul id="treatment-list"></ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-pad role-section" id="role">
+        <div class="section-intro">
+          <p class="eyebrow">My Role</p>
+          <h2 id="role-headline">Single-threaded project owner from Day 1 to delivery.</h2>
+          <p id="role-summary"></p>
+        </div>
+        <div class="role-grid" id="role-grid"></div>
+      </section>
+
+      <section class="section-pad table-section" id="team">
+        <div class="section-intro">
+          <p class="eyebrow">Team Structure</p>
+          <h2>A 12-member cross-functional team with clear ownership.</h2>
+        </div>
+        <div class="data-table" id="team-table"></div>
+      </section>
+
+      <section class="section-pad ecosystem-section" id="stakeholders">
+        <div class="section-intro">
+          <p class="eyebrow">Stakeholder Ecosystem</p>
+          <h2>Every stakeholder group could block the project if mismanaged.</h2>
+        </div>
+        <div class="stakeholder-map" id="stakeholder-map"></div>
+      </section>
+
+      <section class="section-pad architecture-section" id="architecture">
+        <div class="section-intro">
+          <p class="eyebrow">Product Architecture</p>
+          <h2>Three portals, three jobs, one clinical data system.</h2>
+        </div>
+        <div class="architecture-grid" id="architecture-grid"></div>
+      </section>
+
+      <section class="section-pad timeline-section" id="timeline">
+        <div class="section-intro">
+          <p class="eyebrow">7-Month Timeline</p>
+          <h2>Phase-by-phase execution across 14 two-week sprints.</h2>
+        </div>
+        <div class="timeline" id="timeline-list"></div>
+      </section>
+
+      <section class="section-pad feature-section" id="features">
+        <div class="section-intro">
+          <p class="eyebrow">Key Features</p>
+          <h2>47 features shipped across the patient, doctor, and admin portals.</h2>
+        </div>
+        <div class="feature-controls" role="group" aria-label="Feature filters">
+          <button class="filter-button is-active" type="button" data-filter="All">All</button>
+          <button class="filter-button" type="button" data-filter="Patient">Patient</button>
+          <button class="filter-button" type="button" data-filter="Doctor">Doctor</button>
+          <button class="filter-button" type="button" data-filter="Admin">Admin</button>
+        </div>
+        <div class="feature-grid" id="feature-grid"></div>
+      </section>
+
+      <section class="section-pad crisis-section" id="crises">
+        <div class="section-intro">
+          <p class="eyebrow">Crisis Moments</p>
+          <h2>Five moments where systems mattered more than improvisation.</h2>
+        </div>
+        <div class="crisis-layout">
+          <div class="crisis-list" id="crisis-list"></div>
+          <article class="crisis-detail" id="crisis-detail" aria-live="polite"></article>
+        </div>
+      </section>
+
+      <section class="section-pad decision-section" id="decisions">
+        <div class="section-intro">
+          <p class="eyebrow">Technical Decisions</p>
+          <h2>Conservative choices for a healthcare product where trust mattered.</h2>
+        </div>
+        <div class="decision-grid" id="decision-grid"></div>
+      </section>
+
+      <section class="section-pad outcomes-section" id="outcomes">
+        <div class="outcome-panel">
+          <div>
+            <p class="eyebrow">Delivery and Outcomes</p>
+            <h2>Delivered on time despite scope changes, disagreements, schema bugs, and integration failures.</h2>
+          </div>
+          <ul id="outcome-list"></ul>
+        </div>
+      </section>
+
+      <section class="section-pad lessons-section" id="lessons">
+        <div class="section-intro">
+          <p class="eyebrow">What I Learned</p>
+          <h2>Principles carried forward from building healthcare software from zero to one.</h2>
+        </div>
+        <div class="lesson-grid" id="lesson-grid"></div>
+      </section>
+
+      <section class="section-pad demo-section" id="demo">
+        <div class="section-intro">
+          <p class="eyebrow">Interactive Backend Demo</p>
+          <h2>Log a sample GERD symptom and send it through the local API.</h2>
+          <p>This is a lightweight demo of the patient-reported outcomes flow. Submissions are saved locally in the workspace.</p>
+        </div>
+        <form class="demo-form" id="symptom-form">
+          <label>
+            Symptom
+            <select name="symptom" required>
+              <option>Heartburn</option>
+              <option>Regurgitation</option>
+              <option>Dysphagia</option>
+              <option>Chest pain</option>
+              <option>Sleep disruption</option>
+            </select>
+          </label>
+          <label>
+            Severity
+            <input name="severity" type="range" min="0" max="10" value="6">
+            <span id="severity-value">6</span>
+          </label>
+          <label>
+            Trigger
+            <input name="trigger" type="text" value="Spicy dinner" required>
+          </label>
+          <button class="button primary" type="submit">Submit Symptom Log</button>
+          <p class="form-status" id="symptom-status" role="status"></p>
+        </form>
+      </section>
+
+      <section class="section-pad contact-section" id="contact">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Chethan N</h2>
+            <p>Product owner for the GastroTrack GERD platform case study.</p>
+            <div class="contact-links">
+              <a href="mailto:chethansid123@gmail.com">chethansid123@gmail.com</a>
+              <a href="tel:+918792432119">8792432119</a>
+            </div>
+          </div>
+          <form id="contact-form" class="contact-form">
+            <label>
+              Name
+              <input name="name" type="text" placeholder="Your name" required>
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" placeholder="you@example.com" required>
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" placeholder="Write a short note" required></textarea>
+            </label>
+            <button class="button primary" type="submit">Send Message</button>
+            <p class="form-status" id="contact-status" role="status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>GERD</span>
+      <span>GastroTrack case study built as a full-stack local website.</span>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
