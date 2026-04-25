@@ -1,0 +1,295 @@
+{
+  "brand": {
+    "name": "GERD",
+    "product": "GastroTrack",
+    "owner": "Chethan N",
+    "email": "chethansid123@gmail.com",
+    "phone": "8792432119"
+  },
+  "hero": {
+    "eyebrow": "Digital health platform case study",
+    "title": "A three-portal GERD management platform built from clinical discovery to delivery.",
+    "summary": "Between November 2024 and May 2025, Chethan N led the end-to-end design, development, and delivery of GastroTrack for Micro Labs Pharma at Techvaraha Solutions. The platform connected patients, gastroenterologists, and Micro Labs clinical operations into a single ecosystem for symptom tracking, treatment response, dashboards, alerts, and real-world evidence generation.",
+    "primaryCta": "Explore the Case Study",
+    "secondaryCta": "Open Product Console"
+  },
+  "metrics": [
+    { "label": "Delivery window", "value": "Nov 2024-May 2025", "detail": "7 months from discovery to final delivery" },
+    { "label": "Sprints", "value": "14", "detail": "Two-week sprint cadence across the build" },
+    { "label": "Features shipped", "value": "47", "detail": "Across patient, doctor, and admin portals" },
+    { "label": "Final load time", "value": "1.8s", "detail": "Optimized from 4.2 seconds" },
+    { "label": "QA coverage", "value": "286", "detail": "Test cases executed before delivery" },
+    { "label": "Clinical discovery", "value": "6 doctors", "detail": "Including 2 senior department heads" }
+  ],
+  "problem": [
+    "GERD affects approximately 7.6% to 30% of India's adult population depending on the region, yet patient management remains fragmented.",
+    "Patients often self-medicate with over-the-counter antacids, delaying diagnosis of serious complications such as Barrett's esophagus and esophageal strictures.",
+    "Gastroenterologists frequently track progress through handwritten notes or broad hospital EMRs that do not capture GERD-specific clinical parameters.",
+    "Pharma teams have limited visibility into real-world patient outcomes, therapy adherence, and response rates across their GERD treatment portfolio.",
+    "There was no structured mechanism for patient-reported outcomes such as symptom severity, trigger foods, lifestyle factors, or medication timing."
+  ],
+  "clientContext": {
+    "title": "Micro Labs Pharma",
+    "body": "Micro Labs Limited is a Bangalore-based pharmaceutical company ranked among India's top 20 pharma companies by domestic revenue. The project was commissioned by Micro Labs' clinical operations team to create a digital ecosystem that positioned the company as a GERD management thought leader while generating real-world evidence for its gastroenterology portfolio, including PPI therapies such as Pantoprazole, Rabeprazole, and Esomeprazole."
+  },
+  "clinicalFoundation": {
+    "definition": "Gastroesophageal Reflux Disease is a chronic condition where stomach acid frequently flows back into the esophagus. The underlying mechanism involves dysfunction of the lower esophageal sphincter, allowing gastric acid and bile to irritate esophageal tissue over time.",
+    "symptoms": [
+      "Heartburn after eating, at night, or when lying down",
+      "Regurgitation with sour or bitter acid taste",
+      "Dysphagia or sensation of food being stuck",
+      "Non-cardiac chest pain",
+      "Chronic cough, laryngitis, and throat clearing",
+      "Nausea, bloating, and epigastric pain",
+      "Sleep disruption due to nocturnal reflux"
+    ],
+    "classification": [
+      { "grade": "Grade A", "description": "One or more mucosal breaks <= 5mm, not extending between the tops of two mucosal folds" },
+      { "grade": "Grade B", "description": "One or more mucosal breaks > 5mm, not extending between the tops of two mucosal folds" },
+      { "grade": "Grade C", "description": "Mucosal breaks extending between the tops of two or more mucosal folds, involving < 75% of circumference" },
+      { "grade": "Grade D", "description": "Mucosal breaks involving >= 75% of the esophageal circumference" }
+    ],
+    "diagnostics": [
+      "Upper GI endoscopy with report uploads and LA grade mapping",
+      "24-hour ambulatory pH monitoring with DeMeester score tracking",
+      "Esophageal manometry for LES pressure and motility assessment",
+      "Barium swallow report upload and doctor annotations",
+      "8-week PPI trial response tracking"
+    ],
+    "riskFactors": [
+      "Age, BMI, obesity status, and pregnancy status",
+      "Smoking status and family history",
+      "Dietary habits including spicy food, caffeine, alcohol, citrus, and carbonated drinks",
+      "Medication history including NSAIDs, calcium channel blockers, and anticholinergics",
+      "Comorbidities including hiatal hernia, diabetes, asthma, and connective tissue disorders"
+    ],
+    "treatmentPathways": [
+      "Lifestyle modifications with personalized dietary and sleep recommendations",
+      "First-line PPI therapy tracking for dosage, duration, adherence, and response",
+      "Adjunct therapy including H2 receptor antagonists, prokinetics, and antacids",
+      "Surgical referral flags for refractory GERD after 12+ weeks of optimized PPI therapy"
+    ],
+    "complications": [
+      "Barrett's esophagus screening reminders for chronic symptoms and LA Grade C/D",
+      "Urgent endoscopy flags for progressive dysphagia and suspected stricture",
+      "Surveillance schedules for long-term Barrett's patients"
+    ]
+  },
+  "role": {
+    "headline": "Single-threaded project owner from Day 1 to delivery.",
+    "summary": "Operating from the Founder's Office at Techvaraha, Chethan reported directly to the CEO and acted as the primary interface across internal teams, gastroenterologists, and Micro Labs leadership.",
+    "areas": [
+      {
+        "title": "Product Definition and Strategy",
+        "items": [
+          "Conducted clinical discovery with 6 gastroenterologists and shadowed 2 consultations.",
+          "Authored a 62-page PRD covering personas, features, data models, validation rules, and acceptance criteria.",
+          "Defined 3 portals, MVP scope, Phase 2 backlog, and user journey maps."
+        ]
+      },
+      {
+        "title": "Stakeholder Management",
+        "items": [
+          "Managed VP-level client reviews, scope negotiation, and timeline expectations.",
+          "Built working relationships with 6 gastroenterologists for validation and feedback.",
+          "Translated clinical language into technical specifications for the engineering team."
+        ]
+      },
+      {
+        "title": "Team Leadership",
+        "items": [
+          "Managed a 12-member cross-functional team across design, backend, BA, QA, and DevOps.",
+          "Ran daily standups, sprint planning, retrospectives, velocity tracking, and risk registers.",
+          "Reviewed every UI mockup, API contract, and QA test case before sign-off."
+        ]
+      },
+      {
+        "title": "Quality and Delivery",
+        "items": [
+          "Defined healthcare data validation protocols and clinical value range checks.",
+          "Conducted UAT with doctors and Micro Labs stakeholders.",
+          "Managed go-live readiness across encryption, access control, backup, and rollback."
+        ]
+      }
+    ]
+  },
+  "team": [
+    { "role": "Project Lead", "count": 1, "responsibilities": "PRD, stakeholder management, standups, sprint planning, QA oversight, client presentations" },
+    { "role": "UI/UX Designers", "count": 3, "responsibilities": "Wireframes, high-fidelity mockups, design system, doctor-validated interface patterns" },
+    { "role": "Backend Developers", "count": 4, "responsibilities": "API development, database architecture, clinical data models, server infrastructure" },
+    { "role": "Business Analyst", "count": 1, "responsibilities": "Requirements documentation, data flow mapping, stakeholder requirement translation" },
+    { "role": "QA Engineers", "count": 2, "responsibilities": "Test cases, regression testing, clinical data validation, UAT coordination" },
+    { "role": "DevOps Engineer", "count": 1, "responsibilities": "CI/CD pipeline, deployment, monitoring, data backup protocols" }
+  ],
+  "stakeholders": [
+    { "tier": "Decision Makers", "name": "Micro Labs VP", "need": "Final sign-off, RWE generation, competitive positioning, and scope decisions" },
+    { "tier": "Decision Makers", "name": "Techvaraha CEO", "need": "Client relationship narrative, major presentations, and executive readiness" },
+    { "tier": "Clinical Validators", "name": "2 Senior Gastroenterologists", "need": "Clinically credible displays, raw data access, and simplified summaries" },
+    { "tier": "Clinical Validators", "name": "4 Practicing Gastroenterologists", "need": "Workflow fit inside 15-minute consultations" },
+    { "tier": "Operational Users", "name": "Clinical Ops Team", "need": "Admin controls, training, documentation, and no-developer operation" },
+    { "tier": "Operational Users", "name": "Medical Representatives", "need": "A clear 3-minute value proposition for doctor onboarding" }
+  ],
+  "architecture": [
+    {
+      "portal": "Patient Portal",
+      "principle": "Simple enough for a 55-year-old patient with moderate digital literacy.",
+      "features": [
+        "5-step onboarding with demographics, risk factors, symptom history, and BMI auto-calculation",
+        "Daily tracker for 7 symptoms on a 0-10 scale with trigger capture",
+        "Food and lifestyle diary with known GERD trigger flags",
+        "PPI adherence tracking with visual calendar, missed dose alerts, and refill reminders",
+        "Appointment management, visit summaries, lab results, and education library"
+      ]
+    },
+    {
+      "portal": "Doctor Portal",
+      "principle": "Give a 30-second overview, then let the doctor drill down.",
+      "features": [
+        "Kanban patient board filtered by LA grade, treatment phase, adherence, and alerts",
+        "Individual dashboard with symptom trends, treatment response, adherence heatmap, diagnostic timeline, and risk summary",
+        "Aggregate analytics for severity distribution, response rates, adherence, complications, and demographics",
+        "Digital prescription generation and structured clinical notes"
+      ]
+    },
+    {
+      "portal": "Admin Portal",
+      "principle": "Generate real-world evidence and manage the ecosystem.",
+      "features": [
+        "Ecosystem dashboard for enrollment, active patients, doctors, geography, and trends",
+        "RWE reports for treatment response, adherence by drug, and dose patterns",
+        "Population demographics analytics for medical affairs and regulatory use",
+        "Doctor engagement tracking, user management, permissions, and audit trails"
+      ]
+    }
+  ],
+  "timeline": [
+    { "phase": "Phase 1", "weeks": "Weeks 1-4", "title": "Discovery and Clinical Immersion", "output": "62-page PRD with personas, feature specs, clinical rules, data model requirements, and wireframe sketches" },
+    { "phase": "Phase 2", "weeks": "Weeks 5-8", "title": "Design and Architecture", "output": "Approved designs for 3 portals, database schema, API contracts, and doctor-validated patterns" },
+    { "phase": "Phase 3", "weeks": "Weeks 9-16", "title": "Core Development", "output": "Authentication, onboarding, demographics, symptom tracker, medication adherence, and patient dashboard" },
+    { "phase": "Phase 4", "weeks": "Weeks 17-24", "title": "Advanced Features", "output": "Doctor portal, patient board, diagnostic history, analytics, prescriptions, and admin foundation" },
+    { "phase": "Phase 5", "weeks": "Weeks 25-32", "title": "Integration, QA, and Polish", "output": "Admin portal completion, full integration testing, bug fixes, security audit, and performance optimization" },
+    { "phase": "Phase 6", "weeks": "Weeks 33-36", "title": "UAT and Delivery", "output": "Doctor and stakeholder UAT, final polish, user guides, admin training, deployment readiness, and final client demo" }
+  ],
+  "features": [
+    { "portal": "Patient", "name": "Smart Symptom Tracker", "description": "Daily logging of 7 symptoms on a 0-10 scale with trigger capture and correlation with meals and medication timing" },
+    { "portal": "Patient", "name": "Food and Trigger Diary", "description": "Meal logging with auto-flagging of 12 known GERD triggers and visual timeline of meals vs. symptoms" },
+    { "portal": "Patient", "name": "PPI Adherence Tracker", "description": "Calendar heatmap showing adherence percentage, missed dose alerts, refill reminders, and adherence trend line" },
+    { "portal": "Doctor", "name": "Patient Board", "description": "Kanban-style overview filterable by LA Grade, treatment phase, adherence status, and alert flags" },
+    { "portal": "Doctor", "name": "Clinical Analytics Dashboard", "description": "Severity distribution, response rates, adherence trends, complication alerts, and demographics" },
+    { "portal": "Doctor", "name": "Complication Alert Engine", "description": "Rule-based flags for Barrett's screening, stricture evaluation, and surgical referral" },
+    { "portal": "Admin", "name": "RWE Report Generator", "description": "Aggregate treatment outcomes across all doctors and patients, exportable for medical affairs use" },
+    { "portal": "Admin", "name": "Ecosystem Dashboard", "description": "Enrollment trends, doctor engagement metrics, geographic distribution, and patient retention rates" }
+  ],
+  "crises": [
+    {
+      "title": "Unauthorized UX Redesign",
+      "week": "Week 11",
+      "whatHappened": "A UI/UX designer changed the symptom tracker after informal doctor feedback, breaking 3 backend APIs already in progress.",
+      "resolution": "Rolled back the change and created a formal change-control process requiring written sign-off, backend impact assessment, and validation from at least 2 doctors.",
+      "outcome": "Zero unauthorized design changes for the rest of the project and stabilized team velocity."
+    },
+    {
+      "title": "Senior Doctor Data Display Conflict",
+      "week": "Week 19",
+      "whatHappened": "One senior doctor wanted raw 24-hour pH monitoring data while another wanted only the DeMeester composite score.",
+      "resolution": "Designed a two-layer interface: summary traffic-light view by default, with a View Raw Data toggle for the full 24-hour pH plot.",
+      "outcome": "Both doctors approved within 24 hours and became active advocates for the platform."
+    },
+    {
+      "title": "VP Scope Change Mid-Sprint",
+      "week": "Week 21",
+      "whatHappened": "Micro Labs' VP requested comparative PPI effectiveness reporting after a gastroenterology conference.",
+      "resolution": "Scoped the feature in 48 hours, showed the 2-sprint effort and trade-off, and recommended building it because of its business value.",
+      "outcome": "The report became one of the most valued features for medical affairs presentations."
+    },
+    {
+      "title": "Database Schema Bug",
+      "week": "Week 28",
+      "whatHappened": "Patients with multiple diagnostic tests of the same type only showed the latest result due to an incorrect uniqueness rule.",
+      "resolution": "Redesigned the schema around patient ID, test type, test date, and sequence number, migrated data, and retested affected flows.",
+      "outcome": "No data loss, caught before production, and fixed within 2 days."
+    },
+    {
+      "title": "Frontend-Backend Integration Failures",
+      "week": "Weeks 25-26",
+      "whatHappened": "11 of 42 API endpoints returned incorrect data or timed out when all 3 portals were connected.",
+      "resolution": "Ran a focused integration week, paired frontend and backend developers, triaged failures, and moved to twice-daily check-ins.",
+      "outcome": "All 11 failures resolved in 5 days and live API testing became mandatory every sprint."
+    }
+  ],
+  "technicalDecisions": [
+    {
+      "title": "Desktop-first, no mobile in MVP",
+      "decision": "Doctors and Micro Labs ops teams primarily worked on desktops. A mobile build would have added roughly 40% to timeline and budget, so responsive and patient mobile work moved to Phase 2."
+    },
+    {
+      "title": "PostgreSQL over MongoDB",
+      "decision": "Healthcare data had rigid relationships across patients, encounters, symptoms, medications, and tests. Relational constraints protected data integrity."
+    },
+    {
+      "title": "Role-based access control",
+      "decision": "Patients saw only their own data, doctors saw only their assigned patients, and admins saw aggregate de-identified data. Every data access event was logged."
+    },
+    {
+      "title": "Rule-based alerts over ML",
+      "decision": "Clinical alert logic needed to be transparent, auditable, and validated. ML was premature for a zero-to-one healthcare product."
+    }
+  ],
+  "outcomes": [
+    "3 fully functional portals delivered with 47 features.",
+    "14 two-week sprints completed across 7 months on the original timeline.",
+    "286 test cases executed with 99% final QA pass rate.",
+    "Dashboard load time optimized from 4.2 seconds to 1.8 seconds.",
+    "42 API endpoints documented and integration-tested.",
+    "11 core database entities designed with relational integrity.",
+    "Role-based access control and audit trails implemented.",
+    "User guides, admin training, backup protocols, and rollback procedures completed."
+  ],
+  "lessons": [
+    {
+      "title": "Learn the domain before writing the PRD",
+      "body": "Three weeks of GERD immersion saved months of rework because healthcare products cannot be built well without understanding disease, patient journey, and doctor workflow."
+    },
+    {
+      "title": "Influence without authority is the core skill",
+      "body": "Senior doctors listened when product decisions were framed around making their 15-minute consultations more effective."
+    },
+    {
+      "title": "Say yes to the right scope changes",
+      "body": "The PPI comparative report was scope change, but it created real client value. The key was making trade-offs explicit."
+    },
+    {
+      "title": "Build systems, not heroics",
+      "body": "Change control, daily standups, sprint buffers, and blocker SLAs made the project resilient without depending on 18-hour days."
+    },
+    {
+      "title": "Healthcare products are three-sided markets",
+      "body": "Patients, providers, and pharma all need clear value. The product that wins creates value across all three simultaneously."
+    }
+  ],
+  "dashboard": {
+    "patients": [
+      { "name": "Anita R.", "age": 46, "grade": "B", "adherence": 91, "lastVisit": "2 days ago", "alert": "Nocturnal reflux improving" },
+      { "name": "Ramesh K.", "age": 58, "grade": "C", "adherence": 74, "lastVisit": "6 days ago", "alert": "Barrett's screening due" },
+      { "name": "Farah M.", "age": 34, "grade": "A", "adherence": 96, "lastVisit": "Today", "alert": "Trigger diary complete" },
+      { "name": "Vikram P.", "age": 52, "grade": "D", "adherence": 62, "lastVisit": "11 days ago", "alert": "Surgical referral review" }
+    ],
+    "symptomTrend": [6, 7, 5, 4, 4, 3, 2],
+    "treatmentResponse": [
+      { "drug": "Pantoprazole", "rate": 68 },
+      { "drug": "Rabeprazole", "rate": 72 },
+      { "drug": "Esomeprazole", "rate": 64 }
+    ],
+    "severityDistribution": [
+      { "grade": "A", "value": 38 },
+      { "grade": "B", "value": 31 },
+      { "grade": "C", "value": 21 },
+      { "grade": "D", "value": 10 }
+    ],
+    "alerts": [
+      "12 patients flagged for Barrett's screening",
+      "7 patients below 70% PPI adherence",
+      "4 refractory GERD cases need surgical review"
+    ]
+  }
+}
