@@ -1,0 +1,6 @@
+data/*.local.json
+browser-profile/
+qa-*.png
+*.log
+.DS_Store
+Thumbs.db
